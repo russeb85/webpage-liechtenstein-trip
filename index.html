@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malbun Family Hiking Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Malbun Family Hiking Adventure</h1>
+        <p class="date">September 19–21, Malbun, Liechtenstein</p>
+    </header>
+
+    <section id="overview">
+        <h2>Trip Overview</h2>
+        <p>Join us for three days of gentle hikes and alpine scenery. Perfect for families with young children!</p>
+    </section>
+
+    <section id="hotel">
+        <h2>Where We'll Stay</h2>
+        <p>We will be staying at the <a href="https://www.jufahotels.com/en/jufa-hotel-malbun/" target="_blank">JUFA Hotel Malbun</a>.</p>
+        <img src="https://source.unsplash.com/featured/?mountain,hotel" alt="Hotel Malbun" />
+    </section>
+
+    <section id="itinerary">
+        <h2>Daily Hikes</h2>
+        <button class="accordion">Day 1 – Arrival &amp; Easy Walk</button>
+        <div class="panel">
+            <p>After check-in, we'll take a short walk around Malbun to get our bearings.</p>
+        </div>
+        <button class="accordion">Day 2 – Panorama Trail</button>
+        <div class="panel">
+            <p>We'll explore the Panorama Trail with amazing views and picnic spots.</p>
+        </div>
+        <button class="accordion">Day 3 – Farewell Hike</button>
+        <div class="panel">
+            <p>A gentle goodbye hike before we depart.</p>
+        </div>
+    </section>
+
+    <section id="tips">
+        <h2>Tips for Families</h2>
+        <ul>
+            <li>Bring layers and sun protection</li>
+            <li>Pack snacks and plenty of water</li>
+            <li>Sturdy shoes for everyone</li>
+        </ul>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <form id="signup-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p id="form-message" class="hidden"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Malbun Adventure</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="form-handler.js"></script>
+</body>
+</html>
